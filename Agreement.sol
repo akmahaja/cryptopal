@@ -40,7 +40,6 @@ contract Agreement {
         
     }*/
     
-    
     constructor(address employeeAdr, uint256 amount) public {
       employee =   employeeAdr;
       employer = msg.sender;
